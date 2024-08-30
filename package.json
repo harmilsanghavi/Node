@@ -1,0 +1,47 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    "compile": "tsc",
+    "dev": "nodemon src/server.ts",
+    "migrate": "npx sequelize-cli db:migrate"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.11.0",
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/flat": "^5.0.5",
+    "@types/graphql-upload": "^16.0.7",
+    "@types/lodash": "^4.17.7",
+    "@types/passport": "^1.0.16",
+    "@types/sequelize": "^4.28.20",
+    "apollo-server-express": "^3.13.0",
+    "babel-register": "^6.26.0",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "flat": "^6.0.1",
+    "graphql": "^16.9.0",
+    "http": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "passport": "^0.7.0",
+    "pg": "^8.12.0",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "sequelize-typescript": "^2.1.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.3.0",
+    "nodemon": "^3.1.4",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
